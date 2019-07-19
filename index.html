@@ -9,8 +9,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="css/text" href="./assets/css/style.css">
-    <link rel="stylesheet" type="javascript/text" href="./assets/javascript/app.js">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
     <title>Trivia Game!</title>
 </head>
 
@@ -19,135 +20,104 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">Are you a true trainer?</h1>
-                <p class="lead">5 questions a Pokémon trainer should know
-                </p>
             </div>
         </div>
-        <hr>
-        <div class="question-1">
-            <p class="question">Who is Pickachu's trainer?</p>
-
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">Ash Ketchump</label>
+        <button type="button" class="btn btn-warning button-start">Start Quiz!</button>
+        <div class="quiz-start">
+            <div class="question-1">
+                <p class="question">1. Who is Pikachu's trainer?</p>
+                <img src="assets/images/question-1.jpg" width="400px">
+                <button type="button" class="btn btn-light btn-lg">Ash Ketchump</button>
+                <button type="button" class="btn btn-light btn-lg">Ash Ketchup</button>
+                <button type="button" class="btn btn-light btn-lg">Ash Ketchum</button>
+                <button type="button" class="btn btn-light btn-lg">Ash Ketchem</button>
             </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">Ash Ketchup</label>
+            <hr>
+            <div class="question-2">
+                <p class="question">2. What's the most effective Pokéball in the game?</p>
+                <img src="assets/images/question-2.jpg" width="400px">
+                <button type="button" class="btn btn-light btn-lg">Great Ball</button>
+                <button type="button" class="btn btn-light btn-lg">Master Ball</button>
+                <button type="button" class="btn btn-light btn-lg">Timer Ball</button>
+                <button type="button" class="btn btn-light btn-lg">Ultra Ball</button>
             </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">Ash Ketchum</label>
+            <hr>
+            <div class="question-3">
+                <p class="question">3. Which of the following is NOT classified as an original starter Pokémon (Red,
+                    Green,
+                    Blue, FireRed and LeafGreen games)?</p>
+                <img src="assets/images/question-3.jpg" width="400px">
+                <button type="button" class="btn btn-light btn-lg">Bulbasaur</button>
+                <button type="button" class="btn btn-light btn-lg">Charmander</button>
+                <button type="button" class="btn btn-light btn-lg">Squirtle</button>
+                <button type="button" class="btn btn-light btn-lg">Pikachu</button>
             </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">Ash Ketchem</label>
+            <hr>
+            <div class="question-4">
+                <p class="question">4. How many Gym Badges must a trainer collect before challenging the Elite Four?</p>
+                <img src="assets/images/question-4.jpg" width="400px">
+                <button type="button" class="btn btn-light btn-lg">6</button>
+                <button type="button" class="btn btn-light btn-lg">7</button>
+                <button type="button" class="btn btn-light btn-lg">8</button>
+                <button type="button" class="btn btn-light btn-lg">9</button>
             </div>
-        </div>
-        <hr>
-        <div class="question-2">
-            <p class="question">What's the most effective Pokéball in the game?</p>
-
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">Great Ball</label>
+            <hr>
+            <div class="question-5">
+                <p class="question">5. Which of these Pokémon is NOT an Eeveelution?</p>
+                <img src="assets/images/question-5.jpg" width="400px">
+                <button type="button" class="btn btn-light btn-lg">Vaporeon</button>
+                <button type="button" class="btn btn-light btn-lg">Sylveon</button>
+                <button type="button" class="btn btn-light btn-lg">Flygon</button>
+                <button type="button" class="btn btn-light btn-lg">Leafeon</button>
             </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">Master Ball</label>
+            <hr>
+            <div class="question-6">
+                <p class="question">6. Which of these is NOT an evolutionary stone?</p>
+                <img src="assets/images/question-6.jpg" width="400px">
+                <button type="button" class="btn btn-light btn-lg">Fire Stone</button>
+                <button type="button" class="btn btn-light btn-lg">Water Stone</button>
+                <button type="button" class="btn btn-light btn-lg">Dragon Stone</button>
+                <button type="button" class="btn btn-light btn-lg">Thunder Stone</button>
             </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">Timer Ball</label>
+            <hr>
+            <div class="question-7">
+                <p class="question">7. What weather condition does Groudon summon upon entering battle?</p>
+                <img src="assets/images/question-7.jpg" width="400px">
+                <button type="button" class="btn btn-light btn-lg">Hail</button>
+                <button type="button" class="btn btn-light btn-lg">Rain</button>
+                <button type="button" class="btn btn-light btn-lg">Sun</button>
+                <button type="button" class="btn btn-light btn-lg">Sandstorm</button>
             </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">Ultra Ball</label>
+            <hr>
+            <div class="question-8">
+                <p class="question">8. What is his name?</p>
+                <img src="assets/images/question-8.jpg" width="400px">
+                <button type="button" class="btn btn-light btn-lg">Gary</button>
+                <button type="button" class="btn btn-light btn-lg">Ash</button>
+                <button type="button" class="btn btn-light btn-lg">Brock</button>
+                <button type="button" class="btn btn-light btn-lg">James</button>
             </div>
-        </div>
-        <hr>
-        <div class="question-3">
-            <p class="question">Which of the following is NOT classified as an original starter Pokémon?</p>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">Bulbasaur</label>
+            <hr>
+            <div class="question-9">
+                <p class="question">9. What type of Pokémon is Deoxys?<p>
+                        <img src="assets/images/question-9.jpg" width="400px">
+                        <button type="button" class="btn btn-light btn-lg">Dragon</button>
+                        <button type="button" class="btn btn-light btn-lg">Fighting</button>
+                        <button type="button" class="btn btn-light btn-lg">Psychic</button>
+                        <button type="button" class="btn btn-light btn-lg">Normal</button>
             </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">Squirtle</label>
+            <hr>
+            <div class="question-10">
+                <p class="question">10. What Pokémon can be resurrected from the Old Amber?<p>
+                        <img src="assets/images/question-10.jpg" width="400px">
+                        <button type="button" class="btn btn-light btn-lg">Kabuto</button>
+                        <button type="button" class="btn btn-light btn-lg">Aerodactyl</button>
+                        <button type="button" class="btn btn-light btn-lg">Lileep</button>
+                        <button type="button" class="btn btn-light btn-lg">Anorith</button>
             </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">Charmander</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">Pikachu</label>
-            </div>
-        </div>
-        <hr>
-        <div class="question-4">
-            <p class="qustion">How many Gym Badges must a trainer collect before challenging the Elite Four?</p>
-
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">6</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">7</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">8</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">9</label>
-            </div>
-        </div>
-        <hr>
-        <div class="question-5">
-            <p class="qustion">Which of these Pokémon is NOT an Eeveelution?</p>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">Vaporeon</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">Sylveon</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1">
-                <label class="form-check-label" for="inlineRadio1">Flygon</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label" for="inlineRadio2">Leafeon</label>
-            </div>
+            <button type="button" class="btn btn-warning button-restart">Restart!</button>
         </div>
     </div>
-
 
 
 </body>
