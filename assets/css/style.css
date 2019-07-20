@@ -23,7 +23,12 @@ img {
 }
 
 body {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    background-image: url("../assets/images/wallpaper.jpg");
+}
+
+.end-button {
+    margin-top: 20px;
 }
 
 footer {
@@ -32,4 +37,5 @@ footer {
     height: 20px;
     position: fixed;
     bottom: 0px;
+    height: 30px
 }
