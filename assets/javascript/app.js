@@ -17,7 +17,7 @@ $(document).ready(function() {
   //     }
   //   }
 
-  var count = 30;
+  var count = 120;
   var intervalId;
   function run() {
     clearInterval(intervalId);
@@ -62,11 +62,17 @@ $(document).ready(function() {
       $(this)
         .removeClass("btn-light")
         .addClass("btn-danger");
+      incorrect++;
     });
     $(".btn1c").click(function() {
       $(this)
         .removeClass("btn-light")
         .addClass("btn-success");
+      correct++;
+    });
+    var qone = $(".btn1a, .btn1b, .btn1c, .btn1d");
+    qone.click(function() {
+      qone.prop("disabled", true);
     });
 
     // Question 2
@@ -82,6 +88,10 @@ $(document).ready(function() {
         .addClass("btn-success");
       correct++;
     });
+    var qtwo = $(".btn2a, .btn2b, .btn2c, .btn2d");
+    qtwo.click(function() {
+      qtwo.prop("disabled", true);
+    });
 
     // Question 3
     $(".btn3a, .btn3b, .btn3c").click(function() {
@@ -95,6 +105,10 @@ $(document).ready(function() {
         .removeClass("btn-light")
         .addClass("btn-success");
       correct++;
+    });
+    var qthree = $(".btn3a, .btn3b, .btn3c, .btn3d");
+    qthree.click(function() {
+      qthree.prop("disabled", true);
     });
 
     // Question 4
@@ -110,6 +124,10 @@ $(document).ready(function() {
         .addClass("btn-success");
       correct++;
     });
+    var qfour = $(".btn4a, .btn4b, .btn4c, .btn4d");
+    qfour.click(function() {
+      qfour.prop("disabled", true);
+    });
 
     // Question 5
     $(".btn5a, .btn5b, .btn5d").click(function() {
@@ -123,6 +141,10 @@ $(document).ready(function() {
         .removeClass("btn-light")
         .addClass("btn-success");
       correct++;
+    });
+    var qfive = $(".btn5a, .btn5b, .btn5c, .btn5d");
+    qfive.click(function() {
+      qfive.prop("disabled", true);
     });
 
     // Question 6
@@ -138,6 +160,10 @@ $(document).ready(function() {
         .addClass("btn-success");
       correct++;
     });
+    var qsix = $(".btn6a, .btn6b, .btn6c, .btn6d");
+    qsix.click(function() {
+      qsix.prop("disabled", true);
+    });
 
     // Question 7
     $(".btn7a, .btn7c, .btn7d").click(function() {
@@ -151,6 +177,10 @@ $(document).ready(function() {
         .removeClass("btn-light")
         .addClass("btn-success");
       correct++;
+    });
+    var qseven = $(".btn7a, .btn7b, .btn7c, .btn7d");
+    qseven.click(function() {
+      qseven.prop("disabled", true);
     });
 
     // Question 8
@@ -166,6 +196,10 @@ $(document).ready(function() {
         .addClass("btn-success");
       correct++;
     });
+    var qeight = $(".btn8a, .btn8b, .btn8c, .btn8d");
+    qeight.click(function() {
+      qeight.prop("disabled", true);
+    });
 
     // Question 9
     $(".btn9a, .btn9c, .btn9d").click(function() {
@@ -180,6 +214,10 @@ $(document).ready(function() {
         .addClass("btn-success");
       correct++;
     });
+    var qnine = $(".btn9a, .btn9b, .btn9c, .btn9d");
+    qnine.click(function() {
+      qnine.prop("disabled", true);
+    });
 
     // Question 10
     $(".btn10a, .btn10b, .btn10c").click(function() {
@@ -193,6 +231,10 @@ $(document).ready(function() {
         .removeClass("btn-light")
         .addClass("btn-success");
       correct++;
+    });
+    var qten = $(".btn10a, .btn10b, .btn10c, .btn10d");
+    qten.click(function() {
+      qten.prop("disabled", true);
     });
 
     // Restart button
