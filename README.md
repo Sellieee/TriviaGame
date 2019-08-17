@@ -1,2 +1,2 @@
 # TriviaGame
-http://sellieee.github.io/TriviaGame | https://github.com/Sellieee/TriviaGame/
+https://sellieee.github.io/TriviaGame/ | https://github.com/Sellieee/TriviaGame/
